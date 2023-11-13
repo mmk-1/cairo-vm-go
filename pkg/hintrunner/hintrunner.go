@@ -202,7 +202,7 @@ func NewHintRunner(hints map[uint64]Hinter) HintRunner {
 		context: HintRunnerContext{
 			DictionaryManager{},
 			SquashedDictionaryManager{},
-			0,
+			-1,
 		},
 		hints: hints,
 	}
